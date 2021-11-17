@@ -22,4 +22,3 @@ func main() {
 	http.ListenAndServe(":"+port, nil)
 }
 
-echo "hello wold"
