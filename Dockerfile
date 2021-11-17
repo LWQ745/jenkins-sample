@@ -4,6 +4,6 @@ ADD . /go/src/app
 
 WORKDIR /go/srugs
 
-RUN  go build -v -o /go/src/app/jenkins-app
+RUN  go build -v -
 
 CMD ["./jenkins-app"]
